@@ -19,8 +19,8 @@ function App() {
         <AboutUS/>
         <Testimonial/>
         <NewsLetter/>
-        <Footer/>
       </div>
+        <Footer/>
     </div>
   )
 }

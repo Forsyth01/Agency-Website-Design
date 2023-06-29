@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 body{
-  --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  /* background-color: #05043e; */
+  background-color: rgb(5, 4, 62);
+}
+
+h1{
+font-family: 'Bree Serif', serif;
 }

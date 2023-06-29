@@ -8,13 +8,13 @@ const Navbar = () => {
                 <div className="">
                     <i className="text-4xl"><BiLogoAirbnb/></i>
                 </div>
-                <div className="flex items-center gap-3 list-none ">
-                    <li className="hover:text-blue-950"><a href="#" className="">Home</a></li>
-                    <li className="hover:text-blue-950"><a href="#" className="">Services</a></li>
-                    <li className="hover:text-blue-950"><a href="#" className="">Blog</a></li>
-                    <li className="hover:text-blue-950"><a href="#" className="">Portfolio</a></li>
-                    <li className="hover:text-blue-950"><a href="#" className="">Contact</a></li>
-                    <li className="hover:text-blue-950"><FaSearch/></li>
+                <div className="flex items-center gap-4 list-none ">
+                    <li className="hover:text-[#644dca]"><h1><a href="#" className="">Home</a></h1></li>
+                    <li className="hover:text-[#644dca]"><h1><a href="#" className="">Services</a></h1></li>
+                    <li className="hover:text-[#644dca]"><h1><a href="#" className="">Blog</a></h1></li>
+                    <li className="hover:text-[#644dca]"><h1><a href="#" className="">Portfolio</a></h1></li>
+                    <li className="hover:text-[#644dca]"><h1><a href="#" className="">Contact</a></h1></li>
+                    <li className="hover:text-[#644dca]"><h1><FaSearch/></h1></li>
                 </div>
             </div>
         </div>
