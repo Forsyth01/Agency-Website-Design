@@ -8,11 +8,11 @@ const WhyWeChooseUs = () => {
         <div>
             <div className="">
                 <div className="title text-center leading-6 space-y-2 py-5">
-                    <h1 className="text-3xl">Why Choose Us</h1>
-                    <p className="w-[50%] m-auto text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, maiores! Lorem onsectetur adipisicres! Lorem ipsum dolor siipsum dolor sit amet.</p>
+                    <h1 className="text-2xl md:text-2xl 2xl:text-4xl">Why Choose Us</h1>
+                    <p className="lg:w-[50%] m-auto text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, maiores! Lorem onsectetur adipisicres! Lorem ipsum dolor siipsum dolor sit amet.</p>
                 </div>
                 <div className="card py-6">
-                    <div className="flex items-center gap-4">
+                    <div className="grid md:grid-cols-3 lg:grid-cols-4 space-y-4 md:space-y-0 items-center gap-4">
                         <div className="bg-[#151450] hover:bg-[#151450]  p-2 rounded shadow-md leading-8 space-y-2">
                             <i className=""><BiAperture className="text-5xl bg-orange-800 rounded p-2"/></i>
                             <h1 className="card-title text-xl">Professional <br/> & Certified Company</h1>

@@ -5,11 +5,11 @@ const NewsLetter = () => {
     const [email, setEmail] = React.useState("");
     const onChange = ({ target }) => setEmail(target.value);
     return (
-        <div>
-            <div className="bg-[#1a1955] p-10">
-                <div className="text-center space-y-3">
+        <div className='my-20'>
+            <div className="bg-[#1a1955] rounded p-10">
+                <div className="text-center space-y-2">
                     <h1 className="text-2xl">Our Newsletter</h1>
-                    <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, officia.</p>
+                    <p className="pb-3 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, officia.</p>
 
                  
 
