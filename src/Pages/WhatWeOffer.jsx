@@ -50,12 +50,12 @@ const WhatWeOffer = () => {
             </div>
 
             <div className="bg-[#151450] rounded px-8 py-6">
-                <div className="md:flex space-y-8 md:space-y-0 gap-5 items-center justify-between">
+                <div className="lg:flex space-y-8 lg:space-y-0 gap-10 items-center justify-between">
                     <div className="lg:w-[50%]">
-                        <img src="Search.svg" alt="" className="xl:h-[40vh] object-cover" />
+                        <img src="Search.svg" alt="" className="xl:h-[40vh] md:h-[40vh] m-auto h-full object-cover" />
 
                     </div>
-                    <div className="lg:w-[60%] space-y-4">
+                    <div className="lg:w-[70%] space-y-4">
                         <h1 className="text-2xl">Search Engine Optimization</h1>
                         <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore numquam siit amet consectetur adipisicing elit. Doloret aliquam dolores sint corporis adipisci cum quia ab aliquid.</p> <br />
                         <p className="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis,ipsum dolor sit amet consectetur adipisicing elit. Quis, laboriosam. laboriosam.</p>

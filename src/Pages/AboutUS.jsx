@@ -13,7 +13,7 @@ const AboutUS = () => {
                     <button className="bg-[#725ad9] hover:bg-[#644dca] py-2 px-6 rounded">Discover More</button>
                 </div>
                 <div className="lg:w-[50%] md:w-full">
-                    <img src="Hello.svg" alt="" className="lg:h-[55vh] h-[30vh] md:h-[70vh] m-auto md:m-0 object-cover" />
+                    <img src="Hello.svg" alt="" className="lg:h-[55vh] h-[30vh] md:h-[40vh] m-auto md:m-0 object-cover" />
                 </div>
             </div>
         </div>

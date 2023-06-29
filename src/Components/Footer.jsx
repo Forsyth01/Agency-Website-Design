@@ -1,58 +1,46 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaLinkedin, FaGoogle } from "react-icons/fa"
-import { BsFillTelephoneFill } from "react-icons/bs"
-
+import { BiLogoAirbnb } from "react-icons/bi"
+import { HiOutlinePhone } from "react-icons/hi"
+import { MdOutlineLocationOn } from "react-icons/md"
 const Footer = () => {
     return (
-        <footer>
-            <div class=" mt-18 bg-[#7259db] text-white">
-                <div class="md:flex md:justify-between m-auto w-[85%] py-20">
-                    <div class="mb-6 md:mb-0 space-y-2">
-                        <h1 class="text-xl">Azany Business</h1>
-                        <p className="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing <br /> Lorem, ipsum dolor sit amet consectetur adipisicinelit. Quam, earum.</p>
-                    </div>
-                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                        <div>
-                            <h2 class="mb-6 ">Product</h2>
-                            <ul class=" ">
-                                <li class="mb-4">
-                                    <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
-                                </li>
-                                <li>
-                                    <a href="https://tailwindcss.com/" class="">Tailwind CSS</a>
-                                </li>
-                            </ul>
+        <footer className="bg-[#7259db] ">
+            <div className="py-20 w-[85%] m-auto mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                <div className='space-y-3'>
+                    <i className="text-2xl font-bold"><BiLogoAirbnb /></i>
+                    <p className="text-sm leading-6">The Managing Director & Customer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est harum repudiandae nihil accusantium tempora provident amet odit dolor vel minima.</p>
+
+                </div>
+                <div className='space-y-2'>
+                    <h1 className="text-lg">Contact</h1>
+                    <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat possimus natus quas quisquacum!</p>
+                    <div className="space-y-2 py-2">
+                        <div className="flex items-center gap-3 ">
+                            <HiOutlinePhone />
+                            <p className="text-sm">+234 906 1382 727</p>
                         </div>
-                        <div>
-                            <h2 class="mb-6 ">Legal</h2>
-                            <ul class=" ">
-                                <li class="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite" class=" ">Github</a>
-                                </li>
-                                <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="">Discord</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 class="mb-6 ">Contact</h2>
-                            <ul class="">
-                                <li class="mb-4 flex items-center gap-2">
-                                    <BsFillTelephoneFill />
-                                    <a href="#" class="">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">Terms &amp; Conditions</a>
-                                </li>
-                            </ul>
+                        <div className="flex items-center gap-3">
+                            <MdOutlineLocationOn />
+                            <p className="text-sm">Contact us</p>
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-center gap-3 py-1">
-                    <FaFacebook />
-                    <FaTwitter />
-                    <FaLinkedin />
-                    <FaGoogle />
+                <div className='space-y-2'>
+                    <h1 className="text-lg">Viewer guides</h1>
+                    <div className="list-none space-y-2">
+                        <li className=""><p className="text-sm">Features</p></li>
+                        <li className=""><p className="text-sm">Census</p></li>
+                        <li className=""><p className="text-sm">Blog post</p></li>
+                        <li className=""><p className="text-sm">Help & Support</p></li>
+                    </div>
+                </div>
+                <div className='space-y-2'>
+                    <h1 className="text-lg">Community</h1>
+                    <div className="list-none space-y-2">
+                        <li className=""><p className="text-sm">About us</p></li>
+                        <li className=""><p className="text-sm">Our Client</p></li>
+                        <li className=""><p className="text-sm">Legal noice</p></li>
+                    </div>
                 </div>
             </div>
             <div className="bg-[#211c5c]">
@@ -65,6 +53,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
         </footer>
     );
 };

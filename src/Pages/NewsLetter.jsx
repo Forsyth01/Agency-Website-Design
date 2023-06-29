@@ -11,9 +11,9 @@ const NewsLetter = () => {
                     <h1 className="text-2xl">Our Newsletter</h1>
                     <p className="pb-3 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, officia.</p>
 
-                 
 
-                    <div className="relative  w-[50%] m-auto flex flex-col justify-center">
+
+                    {/* <div className="relative  w-[50%] m-auto flex flex-col justify-center">
                         <Input
                             type="email"
                             label=" Enter Yor Email"
@@ -29,6 +29,17 @@ const NewsLetter = () => {
                         >
                            Subscribe
                         </Button>
+                    </div> */}
+
+                    {/* input */}
+                    
+                    <div className="flex flex-col justify-center sm:flex-row items-center">
+                        <input
+                            type="text"
+                            placeholder="Enter your email"
+                            className=" lg:w-[30%] text-black p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2 sm:mb-0 sm:mr-2"
+                        />
+                             <button className="bg-[#725ad9] hover:bg-[#644dca] py-2 px-6 rounded"><p className="text-sm md:text-base">Subscribe</p></button>
                     </div>
                 </div>
             </div>
